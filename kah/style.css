@@ -1,0 +1,23 @@
+:root{
+    --branco-principal: white;
+    --cinza-secundario:rgb(172, 11, 145);
+    --cor-botao:rgb(245, 17, 28);
+    --cor-fundo: black;
+
+}
+body{
+    background-color: var(--cor-fundo);
+    color: var(--branco-principal)
+}
+*{
+    margin:0;
+    padding:0;
+}
+.principal{
+    background-image: url("imagem/backgroud.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    align-items: center;
+    text-align: center;
+}
+
